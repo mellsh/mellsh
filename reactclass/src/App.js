@@ -1,3 +1,25 @@
+import React, { useState } from 'react';
+function EventErrorExample() {
+  const [result, setResult] = useState('');
+  const handleClick = () => {
+    try {
+      // 의도적으로 에러 발생시키기
+      throw new Error("Something went wrong in the event handler!");
+    } catch (error) {
+      console.error(error);
+      setResult("An error occurred. Please try again.");
+    }
+  };
+  return (
+    <div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <h1>Event Error Handling Example</h1>
+      <button onClick={handleClick}>Click to trigger error</button>
+      <p>{result}</p>
+    </div>
+  );
+}
+export default EventErrorExample;
+
 // import React, { useState } from 'react';
 // function SimpleForm() {
 //   const [name, setName] = useState('');
