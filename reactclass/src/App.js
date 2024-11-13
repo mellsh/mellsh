@@ -1,3 +1,22 @@
+import React from 'react';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+import DashboardContent from './components/DashboardContent';
+import './App.css';
+function App() {
+  return (
+    <div className="dashboard">
+      <Header />
+      <div className="dashboard-body">
+        <Sidebar />
+        <DashboardContent />
+      </div>
+    </div>
+  );
+}
+
+export default App;
+
 // import React, { useState, useEffect } from 'react';
 // function UserList() {
 //   const [users, setUsers] = useState([]); // 사용자 데이터상태
