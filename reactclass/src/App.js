@@ -1,23 +1,59 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
-function App() {
-  const [count, setCount] = useState(0);
+// function EventExample() {
+//   const [text, setText] = useState('');
+//   const [count, setCount] = useState(0);
 
-  const increment = () => setCount(count + 1);
+//   const handleClick = () => {
+//     setCount(count + 1);
+//   };
 
-  const decrement = () => setCount(count - 1)
+//   const handleChange = (event) => {
+//     setText(event.target.value);
+//   };
 
-  return(
-    <div style = {{textAlign: 'center', marginTop: '50px'}}>
-      <h1>Counter</h1>
-      <p>Current Count: {count}</p>
-      <button onClick={increment} style={{marginRight:'10px'}}>Increase</button>
-      <button onClick={decrement}>Decrease</button>
-    </div>
-  );
-}
+//   return (
+//     <div style={{ textAlign: 'center', marginTop: '20px' }}>
+//       <h1>React Event Handling</h1>
+//       {/* 클릭 이벤트 처리 */}
+//       <button onClick={handleClick}>
+//         Click me
+//       </button>
+//       <p>Button clicked {count} times</p>
+//       {/* 입력 이벤트 처리 */}
+//       <input
+//         type="text"
+//         value={text}
+//         onChange={handleChange}
+//         placeholder="Type something..."
+//       />
+//       <p>Input text: {text}</p>
+//     </div>
+//   );
+// }
 
-export default App;
+export default EventExample; 
+
+// import React, { useState } from 'react';
+
+// function App() {
+//   const [count, setCount] = useState(0);
+
+//   const increment = () => setCount(count + 1);
+
+//   const decrement = () => setCount(count - 1)
+
+//   return(
+//     <div style = {{textAlign: 'center', marginTop: '50px'}}>
+//       <h1>Counter</h1>
+//       <p>Current Count: {count}</p>
+//       <button onClick={increment} style={{marginRight:'10px'}}>Increase</button>
+//       <button onClick={decrement}>Decrease</button>
+//     </div>
+//   );
+// }
+
+// export default App;
 
 // import React from 'react';
 
