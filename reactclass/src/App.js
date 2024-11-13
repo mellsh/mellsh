@@ -1,4 +1,46 @@
 // import React, { useState } from 'react';
+// function SimpleForm() {
+//   const [name, setName] = useState('');
+//   const [email, setEmail] = useState('');
+//   // 입력 필드가 변경될 때 호출되는 함수
+//   const handleNameChange = (event) => {
+//     setName(event.target.value);
+//   };
+//   const handleEmailChange = (event) => {
+//     setEmail(event.target.value);
+//   };
+//   // 폼이 제출될 때 호출되는 함수
+//   const handleSubmit = (event) => {
+//     event.preventDefault(); // 기본 제출 동작 방지
+//     alert(`Name: ${name}\nEmail: ${email}`);
+//   };
+//   return (
+//     <form onSubmit={handleSubmit} style={{
+//       textAlign: 'center', marginTop:
+//         '50px'
+//     }}>
+//       <h2>Simple Form</h2>
+//       <div>
+//         <label>
+//           Name:
+//           <input type="text" value={name} onChange={handleNameChange} />
+//         </label>
+//       </div>
+//       <div style={{ marginTop: '10px' }}>
+//         <label>
+//           Email:
+//           <input type="email" value={email} onChange={handleEmailChange} />
+//         </label>
+//       </div>
+//       <button type="submit" style={{ marginTop: '20px' }}>Submit</button>
+//       <p>Entered Name: {name}</p>
+//       <p>Entered Email: {email}</p>
+//     </form>
+//   );
+// }
+// export default SimpleForm;
+
+// import React, { useState } from 'react';
 
 // function EventExample() {
 //   const [text, setText] = useState('');
