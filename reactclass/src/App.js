@@ -1,3 +1,45 @@
+// import React, { useState, useEffect } from 'react';
+// function UserList() {
+//   const [users, setUsers] = useState([]); // 사용자 데이터상태
+//   const [loading, setLoading] = useState(true); // 로딩 상태
+//   const [error, setError] = useState(null); // 에러 상태
+//   useEffect(() => {
+//     // 데이터를 가져오는 비동기 함수 정의
+//     const fetchData = async () => {
+//       try {
+//         const response = await
+//           fetch('https://jsonplaceholder.typicode.com/posts');
+//         // 에러가 발생했는지 확인
+//         if (!response.ok) {
+//           throw new Error('Failed to fetch data');
+//         }
+//         const data = await response.json();
+//         setUsers(data); // 사용자 데이터를 상태에 저장
+//       } catch (error) {
+//         setError(error.message); // 에러가 발생하면 에러 메시지를 저장
+//       } finally {
+//         setLoading(false); // 로딩 완료
+//       }
+//     };
+//     fetchData(); // 데이터 가져오기 함수 호출
+//   }, []); // 빈 배열을 넣어 컴포넌트가 마운트될 때 한번만 실행
+//   if (loading) return <p>Loading...</p>;
+//   if (error) return <p>Error: {error}</p>;
+//   return (
+//     <div>
+//       <h1>Title and Body</h1>
+//       <ul>
+//         {users.map((user) => (
+//           <li key={user.id}>
+//             title: {user.title}, body: ({user.body})
+//           </li>
+//         ))}
+//       </ul>
+//     </div>
+//   );
+// }
+// export default UserList;
+
 // import React, { useState } from 'react';
 // function EventErrorExample() {
 //   const [result, setResult] = useState('');
