@@ -1,16 +1,30 @@
-## Hi there 👋
+### 👋 Hi, I'm mellsh — Backend & AI Developer
 
-<!--
-**mellsh/mellsh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Backend( Node.js / FastAPI / Flask) + AI Model Training** 을 주로 합니다.
 
-Here are some ideas to get you started:
+## 🧰 Tech Stack
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Backend**
+- Node.js (Express)
+- Python (FastAPI, Flask)
+
+**AI / ML**
+- PyTorch, TensorFlow, scikit-learn
+- YOLO / XGBoost 실 사용 경험
+
+**DB**
+- MySQL, Oracle, SQLite
+
+**DevOps**
+- Docker / GitHub Actions
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+...
+
+## 📬 Contact
+
+Email : mellsh0813@gmail.com  
+Blog : https://mellsh.tistory.com/ 
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mellsh&show_icons=true)
